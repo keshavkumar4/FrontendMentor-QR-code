@@ -1,0 +1,66 @@
+.attribution { 
+    color: gray;
+    font-size: 15px; 
+    text-align: center; 
+    padding-bottom: 8px;
+}   
+.attribution a { 
+    color: rgb(13, 119, 241);
+    text-decoration: none;
+}
+.attribution a:hover{
+    color:hsl(181, 83%, 47%);
+}
+img{
+    margin: 10px 10px 10px;
+    border-radius: 15px;
+    height: 60%;
+    width: 96%;
+}
+h1{
+    color: hsl(218, 44%, 22%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    line-height: 90%;
+}
+p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 90%;
+}
+.data{
+    text-align: center;
+}
+.container{
+    background-color:hsla(0, 0%, 100%, 0.863);
+    border: 3px solid hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 50px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5% auto 2%;
+    padding: 10px 10px 10px;
+    width: 22%;
+    height: 75%;
+}
+body{
+    background-color:  hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:534px){
+    body{
+        width: 100%;
+        height:100%;
+    }
+}
